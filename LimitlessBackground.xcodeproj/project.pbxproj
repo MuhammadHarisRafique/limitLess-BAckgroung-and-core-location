@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE22A941860E6CB006A93E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE22A931860E6CB006A93E3 /* Foundation.framework */; };
+		CEE22A961860E6CB006A93E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE22A951860E6CB006A93E3 /* CoreGraphics.framework */; };
+		CEE22A981860E6CB006A93E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE22A971860E6CB006A93E3 /* UIKit.framework */; };
+		CEE22A9E1860E6CB006A93E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEE22A9C1860E6CB006A93E3 /* InfoPlist.strings */; };
+		CEE22AA41860E6CB006A93E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AA31860E6CB006A93E3 /* AppDelegate.swift */; };
+		CEE22AA71860E6CB006A93E3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE22AA51860E6CB006A93E3 /* Main_iPhone.storyboard */; };
+		CEE22AAA1860E6CB006A93E3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE22AA81860E6CB006A93E3 /* Main_iPad.storyboard */; };
+		CEE22AAD1860E6CB006A93E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE22AAC1860E6CB006A93E3 /* ViewController.swift */; };
+		CEE22AAF1860E6CB006A93E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE22AAE1860E6CB006A93E3 /* Images.xcassets */; };
+		CEE22AB61860E6CB006A93E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE22AB51860E6CB006A93E3 /* XCTest.framework */; };
+		CEE22AB71860E6CB006A93E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE22A931860E6CB006A93E3 /* Foundation.framework */; };
+		CEE22AB81860E6CB006A93E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE22A971860E6CB006A93E3 /* UIKit.framework */; };
+		CEE22ACC1860E952006A93E3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE22ACB1860E951006A93E3 /* AVFoundation.framework */; };
+		CEE22ACE1860EC23006A93E3 /* silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE22ACD1860EC23006A93E3 /* silence.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE22AB91860E6CB006A93E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE22A881860E6CB006A93E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE22A8F1860E6CB006A93E3;
+			remoteInfo = LimitlessBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE22A901860E6CB006A93E3 /* LimitlessBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimitlessBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE22A931860E6CB006A93E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEE22A951860E6CB006A93E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE22A971860E6CB006A93E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE22A9B1860E6CB006A93E3 /* LimitlessBackground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LimitlessBackground-Info.plist"; sourceTree = "<group>"; };
+		CEE22A9D1860E6CB006A93E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEE22AA11860E6CB006A93E3 /* LimitlessBackground-Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LimitlessBackground-Prefix.swift"; sourceTree = "<group>"; };
+		CEE22AA31860E6CB006A93E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE22AA61860E6CB006A93E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CEE22AA91860E6CB006A93E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CEE22AAC1860E6CB006A93E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE22AAE1860E6CB006A93E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEE22AB41860E6CB006A93E3 /* LimitlessBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimitlessBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE22AB51860E6CB006A93E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEE22ACB1860E951006A93E3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CEE22ACD1860EC23006A93E3 /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE22A8D1860E6CB006A93E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE22ACC1860E952006A93E3 /* AVFoundation.framework in Frameworks */,
+				CEE22A961860E6CB006A93E3 /* CoreGraphics.framework in Frameworks */,
+				CEE22A981860E6CB006A93E3 /* UIKit.framework in Frameworks */,
+				CEE22A941860E6CB006A93E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE22AB11860E6CB006A93E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE22AB61860E6CB006A93E3 /* XCTest.framework in Frameworks */,
+				CEE22AB81860E6CB006A93E3 /* UIKit.framework in Frameworks */,
+				CEE22AB71860E6CB006A93E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE22A871860E6CB006A93E3 = {
+			isa = PBXGroup;
+			children = (
+				CEE22A991860E6CB006A93E3 /* LimitlessBackground */,
+				CEE22A921860E6CB006A93E3 /* Frameworks */,
+				CEE22A911860E6CB006A93E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE22A911860E6CB006A93E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22A901860E6CB006A93E3 /* LimitlessBackground.app */,
+				CEE22AB41860E6CB006A93E3 /* LimitlessBackgroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE22A921860E6CB006A93E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22ACB1860E951006A93E3 /* AVFoundation.framework */,
+				CEE22A931860E6CB006A93E3 /* Foundation.framework */,
+				CEE22A951860E6CB006A93E3 /* CoreGraphics.framework */,
+				CEE22A971860E6CB006A93E3 /* UIKit.framework */,
+				CEE22AB51860E6CB006A93E3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE22A991860E6CB006A93E3 /* LimitlessBackground */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22AA31860E6CB006A93E3 /* AppDelegate.swift */,
+				CEE22AA51860E6CB006A93E3 /* Main_iPhone.storyboard */,
+				CEE22AA81860E6CB006A93E3 /* Main_iPad.storyboard */,
+				CEE22AAC1860E6CB006A93E3 /* ViewController.swift */,
+				CEE22AAE1860E6CB006A93E3 /* Images.xcassets */,
+				CEE22A9A1860E6CB006A93E3 /* Supporting Files */,
+			);
+			path = LimitlessBackground;
+			sourceTree = "<group>";
+		};
+		CEE22A9A1860E6CB006A93E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE22ACD1860EC23006A93E3 /* silence.mp3 */,
+				CEE22A9B1860E6CB006A93E3 /* LimitlessBackground-Info.plist */,
+				CEE22A9C1860E6CB006A93E3 /* InfoPlist.strings */,
+				CEE22AA11860E6CB006A93E3 /* LimitlessBackground-Prefix.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE22A8F1860E6CB006A93E3 /* LimitlessBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE22AC51860E6CB006A93E3 /* Build configuration list for PBXNativeTarget "LimitlessBackground" */;
+			buildPhases = (
+				CEE22A8C1860E6CB006A93E3 /* Sources */,
+				CEE22A8D1860E6CB006A93E3 /* Frameworks */,
+				CEE22A8E1860E6CB006A93E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LimitlessBackground;
+			productName = LimitlessBackground;
+			productReference = CEE22A901860E6CB006A93E3 /* LimitlessBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE22AB31860E6CB006A93E3 /* LimitlessBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE22AC81860E6CB006A93E3 /* Build configuration list for PBXNativeTarget "LimitlessBackgroundTests" */;
+			buildPhases = (
+				CEE22AB01860E6CB006A93E3 /* Sources */,
+				CEE22AB11860E6CB006A93E3 /* Frameworks */,
+				CEE22AB21860E6CB006A93E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE22ABA1860E6CB006A93E3 /* PBXTargetDependency */,
+			);
+			name = LimitlessBackgroundTests;
+			productName = LimitlessBackgroundTests;
+			productReference = CEE22AB41860E6CB006A93E3 /* LimitlessBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE22A881860E6CB006A93E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yifan Lu";
+				TargetAttributes = {
+					CEE22A8F1860E6CB006A93E3 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CEE22AB31860E6CB006A93E3 = {
+						TestTargetID = CEE22A8F1860E6CB006A93E3;
+					};
+				};
+			};
+			buildConfigurationList = CEE22A8B1860E6CB006A93E3 /* Build configuration list for PBXProject "LimitlessBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE22A871860E6CB006A93E3;
+			productRefGroup = CEE22A911860E6CB006A93E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE22A8F1860E6CB006A93E3 /* LimitlessBackground */,
+				CEE22AB31860E6CB006A93E3 /* LimitlessBackgroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE22A8E1860E6CB006A93E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE22ACE1860EC23006A93E3 /* silence.mp3 in Resources */,
+				CEE22AAA1860E6CB006A93E3 /* Main_iPad.storyboard in Resources */,
+				CEE22AAF1860E6CB006A93E3 /* Images.xcassets in Resources */,
+				CEE22AA71860E6CB006A93E3 /* Main_iPhone.storyboard in Resources */,
+				CEE22A9E1860E6CB006A93E3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE22AB21860E6CB006A93E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE22A8C1860E6CB006A93E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE22AAD1860E6CB006A93E3 /* ViewController.swift in Sources */,
+				CEE22AA41860E6CB006A93E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE22AB01860E6CB006A93E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE22ABA1860E6CB006A93E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE22A8F1860E6CB006A93E3 /* LimitlessBackground */;
+			targetProxy = CEE22AB91860E6CB006A93E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE22A9C1860E6CB006A93E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE22A9D1860E6CB006A93E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEE22AA51860E6CB006A93E3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE22AA61860E6CB006A93E3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE22AA81860E6CB006A93E3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE22AA91860E6CB006A93E3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE22AC31860E6CB006A93E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE22AC41860E6CB006A93E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE22AC61860E6CB006A93E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "LimitlessBackground/LimitlessBackground-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEE22AC71860E6CB006A93E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "LimitlessBackground/LimitlessBackground-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEE22AC91860E6CB006A93E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LimitlessBackground.app/LimitlessBackground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LimitlessBackgroundTests/LimitlessBackgroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEE22ACA1860E6CB006A93E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LimitlessBackground.app/LimitlessBackground";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = "LimitlessBackgroundTests/LimitlessBackgroundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE22A8B1860E6CB006A93E3 /* Build configuration list for PBXProject "LimitlessBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE22AC31860E6CB006A93E3 /* Debug */,
+				CEE22AC41860E6CB006A93E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE22AC51860E6CB006A93E3 /* Build configuration list for PBXNativeTarget "LimitlessBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE22AC61860E6CB006A93E3 /* Debug */,
+				CEE22AC71860E6CB006A93E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE22AC81860E6CB006A93E3 /* Build configuration list for PBXNativeTarget "LimitlessBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE22AC91860E6CB006A93E3 /* Debug */,
+				CEE22ACA1860E6CB006A93E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE22A881860E6CB006A93E3 /* Project object */;
+}
